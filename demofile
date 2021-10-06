@@ -1,0 +1,25 @@
+pipeline {
+    agent any
+    
+    stages {
+        stage('build') {
+            steps {
+                sh "echo 'i love jesus'"
+                }
+            }
+        stage('test') {
+            steps {
+                sh "echo 'this is my test env'"
+            }
+        }    
+        stage('delivery') {
+            steps {
+                sh "echo 'looking at the outcome'"
+                sh "echo 'keep tracking the event'"
+            }
+        }
+    }
+    
+    
+}
+    
