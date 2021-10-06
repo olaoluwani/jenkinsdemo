@@ -18,6 +18,11 @@ pipeline {
                 sh "echo 'keep tracking the event'"
             }
         }
+        stage('deployment') {
+            steps {
+                 sh" echo 'thanks for your patronage' "
+            }
+        }
     }
     
     
