@@ -23,6 +23,11 @@ pipeline {
                  sh" echo 'thanks for your patronage' "
             }
         }
+        stage('deployment2'){
+            steps {
+                sh" echo 'the lord is good' "  
+        }  
+            } 
     }
     
     
